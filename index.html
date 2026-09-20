@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofli_ndeye</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--en tête-->
+    <header >
+    <nav>
+        <ul class="nav_lien">
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+
+        </ul>
+    </nav>
+    </header>
+    <!--partie hero-->
+    <section id="hero" class="hero">
+        <div class="hero-text">
+        <h1 >Ndeye MBODJI, Étudiante en 2e année MPI passionnée par le web et les données.</h1>
+        <p>Parcours rigoureux en Mathématiques,Physique et informatique-conception d'intérfaces web claires et fonctionnels.</p>
+        <div >
+            <ul class="hero-butt">
+                <li><a href="#projets" class="btn btn-primary">voir mes projets</a></li>
+                <li><a href="#contacts" class="btn btn-secondary">Prendre contact</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="hero-image">
+        <img src="assets/images/image profil.jpeg" alt="photo_profil">
+        </div>
+    </section>
+    <hr class="divider">
+
+    <!--partie À propos de moi-->
+    <section id="apropos" class="apropos">
+    <h2><span class="section-num">1</span>À propos de moi</h2>
+    <div class="apropos-wrapper">
+    <div class="apropos-content" class="apropos-bord">
+        <p>Je suis motivée par tout ce qui touche à la tech, notamment le développement web et les données. J'aime comprendre comment les choses fonctionnent en profondeur, et transformer des idées ou des problèmes concrets en solutions numériques claires et utiles.</p>        <p>Être en MPI me permet de développer mes compétences en mathématiques et en physique, des bases solides pour me spécialiser plus tard dans les domaines de l'informatique qui les requièrent.</p>
+        <p>En parallèle de mes études, mon rôle de présidente de la commission sociale de l'amicale régionale m'a appris à gérer des projets collectifs et à travailler efficacement en équipe, même sous pression.</p>
+    </div>
+    <div class="apropos-stats">
+        <div class="stat-card">
+            <h3>2e année</h3>
+            <p>Licence Mathématique, Physique et Informatique</p>
+        </div>
+        <div class="stat-card">
+            <h3>3 projets</h3>
+            <p>Présentés ici</p>
+        </div>
+        <div class="stat-card">
+            <h3>Présidente</h3>
+            <p>Commission sociale d'une amicale régionale.</p>
+        </div>
+    </div>
+    <div>
+</section>
+<hr class="divider">
+    <!--partie Compétences et outils-->
+<section id="competences" class="competences">
+    <h2><span class="section-num">02</span>Compétences et outils</h2>
+    <div class="competences-sect">
+    <div class="competences-stat">
+        <h4>DÉVELOPPEMENT WEB</h4>
+        <ul>
+        <li>HTML </li>
+        <li>CSS </li>
+        <li>JavaScript </li>
+       </ul>
+    </div >
+    <div class="competences-stat">
+        <h4>DONNEES & ANALYSE </h4>
+        <ul>
+        <li>Python/R </li>
+        <li>SQL </li>
+        <li>Excel </li>
+       </ul>
+    </div>
+    <div class="competences-stat">
+       <h4>SAVOIR-ÊTRE & GESTION</h4>
+       <ul>
+        <li>Analyse de données </li>
+        <li>Gestion de projet</li>
+        <li>Leadership,Travail en équipe et sous pression </li>
+       </ul>
+    
+    </div>
+    </div>
+</section>
+<hr class="divider"> 
+<!--projets réalisés-->
+<section id="projets" class="projet"> 
+    <h2><span class="section-num">03</span>Projets réalisés</h2>
+    <div class="projet-sect">
+    <div class="projet-stat">
+        <div class="projet-image">
+            <img src="assets/images/images crous diamniadio.jpg" alt="Vue aérienne des pavillons du CROUS de Diamniadio">
+        </div>
+        <div class="projet-tags">
+        <p>Python,SQL,Excel,Data</p>
+        </div>
+        <h3>Optimisation logement crous</h3>
+        <p> Analyse des facteurs expliquant les écarts de répartition dans 6 nouveaux pavillons construits pour les JOJ 2026: nettoyage de données,requêtes SQL,visualisations Python/Excel.</p>
+    </div>
+    <div class="projet-stat">
+        <div class="projet-image">
+            <img src="assets/images/pishing.jpg" alt="Illustration d'une tentative de phishing par email">
+        </div>
+        <div class="projet-tags">
+            <p>Cybersécurité-Sensibilisation</p>
+        </div>
+        <h3>Sensibilisation phishing</h3>
+        <p>Projet de groupe visant à sensibiliser au phishing, incluant une présentation des institutions africaines de cybersécurité.</p>
+    </div>
+    <div class="projet-stat">
+        <div class="projet-image">
+            <img src="assets/images/devoweb.jpg" alt="Illustration représentant le développement web">
+        </div>
+        <div class="projet-tags">
+            <p>HTML,CSS,JavaScript</p>
+        </div>
+        <h3>Développement web</h3>
+        <p>Exercices HTML et Java_Script progressifs pour développer la logique de programmation web.</p>
+    </div>
+    </div>
+</section>
+<hr class="divider">
+<!--me contacter-->
+<section id="contacts" class="contact">
+    <h2><span class="section-num">04</span>Me contacter</h2>
+    <div class="contact-wrapper">
+        <form class="contact-form" id="contactform" novalidate>
+            <div class="form-group">
+                <label for="nom">Nom complet</label> 
+                <br>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Adresse email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                 <label for="message">message</label>
+                 <br>
+                 <textarea name="message" id="message" rows="3" cols="25">    
+                 </textarea>
+
+
+            </div>
+         <button type="submit" class="btn btn-primary">Envoyer le formulaire  </button>
+
+        </form>
+        <div class="contact-infos">
+            <h3>Bloc infos directes</h3>
+            <div>
+            <p>Email pro</p>
+            <span><a href="mailto:mbodjindeye80@gmail.com">mbodjindeye80@gmail.com</a></span>
+            <p>Github profil</p>
+            <span><a href="https://github.com/ndeye232">github.com/ndeye232</a></span>
+          </div>
+        </div>
+       
+    </div>
+
+</section>
+<footer>
+        <p>&copy; 2026 Ndeye MBODJI. Tous droits réservés.</p>
+        <a href="#hero" class="back-to-top">↑ Haut de page</a>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
+
